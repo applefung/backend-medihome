@@ -1,0 +1,86 @@
+{
+    "I0000": {
+        "errCode": "I0000",
+        "msg_en": "Success",
+        "msg_chi": "成功",
+        "msg_remark": "E0000"
+    },
+    "I0001": {
+        "errCode": "I0001",
+        "msg_en": "Get all category fail",
+        "msg_chi": "Get all category fail",
+        "msg_remark": "E0001"
+    },
+    "I0002": {
+        "errCode": "I0002",
+        "msg_en": "Get all product fail",
+        "msg_chi": "Get all product fail",
+        "msg_remark": "E0002"
+    },
+    "I0003": {
+        "errCode": "I0003",
+        "msg_en": "Get one product by id fail",
+        "msg_chi": "Get one product by id fail",
+        "msg_remark": "E0003"
+    },
+    "I0004": {
+        "errCode": "I0004",
+        "msg_en": "Get one product by category fail",
+        "msg_chi": "Get one product by category fail",
+        "msg_remark": "E0004"
+    },
+    "I0005": {
+        "errCode": "I0004",
+        "msg_en": "Get all carousel fail",
+        "msg_chi": "Get all carousel fail",
+        "msg_remark": "E0004"
+    },
+    "I0006": {
+        "errCode": "I0007",
+        "msg_en": "Get all pharmacy fail",
+        "msg_chi": "Get all pharmacy fail",
+        "msg_remark": "E0004"
+    },
+    "I0007": {
+        "errCode": "I0007",
+        "msg_en": "Get one product fail",
+        "msg_chi": "Get one product fail",
+        "msg_remark": "E0007"
+    },
+    "I0008": {
+        "errCode": "I0008",
+        "msg_en": "Get one category en fail",
+        "msg_chi": "Get one category en fail",
+        "msg_remark": "E0008"
+    },
+    "I0009": {
+        "errCode": "I0009",
+        "msg_en": "Get one category cn fail",
+        "msg_chi": "Get one category cn fail",
+        "msg_remark": "E0009"
+    },
+    "I0010": {
+        "errCode": "I0010",
+        "msg_en": "No Permission",
+        "msg_chi": "No Permission",
+        "msg_remark": "E0010"
+    },
+    "I0011": {
+        "errCode": "I0011",
+        "msg_en": "Get one pharmacy fail",
+        "msg_chi": "Get one pharmacy fail",
+        "msg_remark": "E0011"
+    },
+    "I0012": {
+        "errCode": "I0012",
+        "msg_en": "Search product fail",
+        "msg_chi": "Search product fail",
+        "msg_remark": "E0012"
+    },
+    "I0013": {
+        "errCode": "I0013",
+        "msg_en": "Search product fail",
+        "msg_chi": "Search product fail",
+        "msg_remark": "E0013"
+    }
+}

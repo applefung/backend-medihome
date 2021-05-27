@@ -11,8 +11,6 @@ const pharmacy = db.define('pharmacy',{
     product_ids:{
         type: Sequelize.STRING(255),
         allowNull: true,
-        references: 'pharmacy', // <<< Note, its table's name, not object name
-        referencesKey: 'pharmacy_id' // <<< Note, its a column name
     },
     name_en:{
         type: Sequelize.STRING(255),

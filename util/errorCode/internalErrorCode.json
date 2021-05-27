@@ -82,5 +82,575 @@
         "msg_en": "Search product fail",
         "msg_chi": "Search product fail",
         "msg_remark": "E0013"
+    },
+    "I0014": {
+        "errCode": "I0014",
+        "msg_en": "No customer user",
+        "msg_chi": "No customer user",
+        "msg_remark": "E0014"
+    },
+    "I0015": {
+        "errCode": "I0015",
+        "msg_en": "Email or Password Wrong",
+        "msg_chi": "Email or Password Wrong",
+        "msg_remark": "E0015"
+    },
+    "I0016": {
+        "errCode": "I0016",
+        "msg_en": "Get customer user fail",
+        "msg_chi": "Get customer user fail",
+        "msg_remark": "E0016"
+    },
+    "I0017": {
+        "errCode": "I0017",
+        "msg_en": "Create authenticaion token fail",
+        "msg_chi": "Create authenticaion token fail",
+        "msg_remark": "E0017"
+    },
+    "I0018": {
+        "errCode": "I0018",
+        "msg_en": "Email sent error",
+        "msg_chi": "Email sent error",
+        "msg_remark": "E0018"
+    },
+    "I0019": {
+        "errCode": "I0019",
+        "msg_en": "Get one customer user fail",
+        "msg_chi": "Get one customer user fail",
+        "msg_remark": "E0019"
+    },
+    "I0020": {
+        "errCode": "I0020",
+        "msg_en": "Update customer User Exist",
+        "msg_chi": "Update Customer User Exist",
+        "msg_remark": "E0020"
+    },
+    "I0021": {
+        "errCode": "E00I002121",
+        "msg_en": "Create customer user fail",
+        "msg_chi": "Create customer user fail",
+        "msg_remark": "E0021"
+    },
+    "I0022": {
+        "errCode": "I0022",
+        "msg_en": "Get customer user fail",
+        "msg_chi": "Get customer user fail",
+        "msg_remark": "E0022"
+    },
+    "I0023": {
+        "errCode": "I0023",
+        "msg_en": "Customer user not exist",
+        "msg_chi": "Customer user not exist",
+        "msg_remark": "E0022"
+    },
+    "I0024": {
+        "errCode": "I0024",
+        "msg_en": "Verification Code not match",
+        "msg_chi": "Verification Code not match",
+        "msg_remark": "E0024"
+    },
+    "I0025": {
+        "errCode": "I0025",
+        "msg_en": "Update customer user fail",
+        "msg_chi": "Update customer user fail",
+        "msg_remark": "E0025"
+    },
+    "I0026": {
+        "errCode": "I0026",
+        "msg_en": "Customer User Not Exist",
+        "msg_chi": "Customer User Not Exist",
+        "msg_remark": "E0026"
+    },
+    "I0027": {
+        "errCode": "I0027",
+        "msg_en": "Get one customer user fail",
+        "msg_chi": "Get one customer user fail",
+        "msg_remark": "E0027"
+    },
+    "I0028": {
+        "errCode": "I0028",
+        "msg_en": "Update customer User Exist",
+        "msg_chi": "Update Customer User Exist",
+        "msg_remark": "E0028"
+    },
+    "I0029": {
+        "errCode": "I0029",
+        "msg_en": "Get customer user fail",
+        "msg_chi": "Get customer user fail",
+        "msg_remark": "E0029"
+    },
+    "I0030": {
+        "errCode": "I0030",
+        "msg_en": "Customer user not exist",
+        "msg_chi": "Customer user not exist",
+        "msg_remark": "E0030"
+    },
+    "I0031": {
+        "errCode": "I0031",
+        "msg_en": "Verification Code not match",
+        "msg_chi": "Verification Code not match",
+        "msg_remark": "E0031"
+    },
+    "I0032": {
+        "errCode": "I0032",
+        "msg_en": "Update customer user fail",
+        "msg_chi": "Update customer user fail",
+        "msg_remark": "E0032"
+    },
+    "I0033": {
+        "errCode": "I0033",
+        "msg_en": "Get customer user fail",
+        "msg_chi": "Get customer user fail",
+        "msg_remark": "E0033"
+    },
+    "I0034": {
+        "errCode": "I0034",
+        "msg_en": "No customer user",
+        "msg_chi": "No customer user",
+        "msg_remark": "E0034"
+    },
+    "I0035": {
+        "errCode": "I0035",
+        "msg_en": "Update customer user shopping cart fail",
+        "msg_chi": "Update customer user shopping cart fail",
+        "msg_remark": "E0035"
+    },
+    "I0036": {
+        "errCode": "I0036",
+        "msg_en": "Get product id fail",
+        "msg_chi": "Get product id fail",
+        "msg_remark": "E0036"
+    },
+    "I0037": {
+        "errCode": "I0037",
+        "msg_en": "No product exist",
+        "msg_chi": "No product exist",
+        "msg_remark": "E0037"
+    },
+    "I0038": {
+        "errCode": "I0038",
+        "msg_en": "Get authorization token fail",
+        "msg_chi": "Get authorization token fail",
+        "msg_remark": "E0038"
+    },
+    "I0039": {
+        "errCode": "I0039",
+        "msg_en": "Token expired",
+        "msg_chi": "Token expired",
+        "msg_remark": "E0039"
+    },
+    "I0040": {
+        "errCode": "I0040",
+        "msg_en": "Token expired",
+        "msg_chi": "Token expired",
+        "msg_remark": "E0040"
+    },
+    "I0041": {
+        "errCode": "I0041",
+        "msg_en": "Token customer user not exist",
+        "msg_chi": "Token customer user not exist",
+        "msg_remark": "E0041"
+    },
+    "I0042": {
+        "errCode": "I0042",
+        "msg_en": "Get customer user error",
+        "msg_chi": "Get customer user error",
+        "msg_remark": "E0042"
+    },
+    "I0043": {
+        "errCode": "I0043",
+        "msg_en": "Customer user nt exist",
+        "msg_chi": "Customer user nt exist",
+        "msg_remark": "E0043"
+    },
+    "I0044": {
+        "errCode": "I0044",
+        "msg_en": "Get pharmacy fail",
+        "msg_chi": "Get pharmacy fail",
+        "msg_remark": "E0044"
+    },
+    "I0045": {
+        "errCode": "I0045",
+        "msg_en": "Pharmacy not exist",
+        "msg_chi": "Pharmacy not exist",
+        "msg_remark": "E0045"
+    },
+    "I0046": {
+        "errCode": "I0046",
+        "msg_en": "Get product fail",
+        "msg_chi": "Get product fail",
+        "msg_remark": "E0046"
+    },
+    "I0047": {
+        "errCode": "I0047",
+        "msg_en": "Get customer user fail",
+        "msg_chi": "Get customer user fail",
+        "msg_remark": "E0047"
+    },
+    "I0048": {
+        "errCode": "I0048",
+        "msg_en": "Create order fail",
+        "msg_chi": "Create order fail",
+        "msg_remark": "E0048"
+    },
+    "I0049": {
+        "errCode": "I0049",
+        "msg_en": "Get customer user fail",
+        "msg_chi": "Get customer user fail",
+        "msg_remark": "E0049"
+    },
+    "I0050": {
+        "errCode": "I0050",
+        "msg_en": "Customer user null",
+        "msg_chi": "Customer user null",
+        "msg_remark": "E0050"
+    },
+    "I0051": {
+        "errCode": "I0051",
+        "msg_en": "Update customer user fail",
+        "msg_chi": "Update customer user fail",
+        "msg_remark": "E0051"
+    },
+    "I0052": {
+        "errCode": "I0052",
+        "msg_en": "Get customer user fail",
+        "msg_chi": "Get customer user fail",
+        "msg_remark": "E0052"
+    },
+    "I0053": {
+        "errCode": "I0053",
+        "msg_en": "Create chat fail",
+        "msg_chi": "Create chat fail",
+        "msg_remark": "E0053"
+    },
+    "I0054": {
+        "errCode": "I0054",
+        "msg_en": "Get chat fail",
+        "msg_chi": "Get chat fail",
+        "msg_remark": "E0054"
+    },
+    "I0055": {
+        "errCode": "I0055",
+        "msg_en": "Update chat fail",
+        "msg_chi": "Update chat fail",
+        "msg_remark": "E0055"
+    },
+    "I0056": {
+        "errCode": "I0056",
+        "msg_en": "Chat empty fail",
+        "msg_chi": "Chat empty fail",
+        "msg_remark": "E0056"
+    },
+    "I0057": {
+        "errCode": "I0057",
+        "msg_en": "Get pharmacy user fail",
+        "msg_chi": "Get pharmacy user fail",
+        "msg_remark": "E0057"
+    },
+    "I0058": {
+        "errCode": "I0058",
+        "msg_en": "Pharmacy user empty",
+        "msg_chi": "Pharmacy user empty",
+        "msg_remark": "E0058"
+    },
+    "I0059": {
+        "errCode": "I0059",
+        "msg_en": "Wrong Email or Password",
+        "msg_chi": "Wrong Email or Password",
+        "msg_remark": "E0059"
+    },
+    "I0060": {
+        "errCode": "I0060",
+        "msg_en": "Create pharmacy authorization token fail",
+        "msg_chi": "Create pharmacy authorization token fail",
+        "msg_remark": "E0060"
+    },
+    "I0061": {
+        "errCode": "I0061",
+        "msg_en": "Get pharmacy friend list fail",
+        "msg_chi": "Get pharmacy friend list fail",
+        "msg_remark": "E0061"
+    },
+    "I0062": {
+        "errCode": "I0062",
+        "msg_en": "Get customer friend list fail",
+        "msg_chi": "Get customer friend list fail",
+        "msg_remark": "E0062"
+    },
+    "I0063": {
+        "errCode": "I0063",
+        "msg_en": "Get order fail",
+        "msg_chi": "Get order fail",
+        "msg_remark": "E0063"
+    },
+    "I0064": {
+        "errCode": "I0064",
+        "msg_en": "Order empty",
+        "msg_chi": "Order empty",
+        "msg_remark": "E0064"
+    },
+    "I0065": {
+        "errCode": "I0065",
+        "msg_en": "Get pharmacy fail",
+        "msg_chi": "Get pharmacy fail",
+        "msg_remark": "E0065"
+    },
+    "I0066": {
+        "errCode": "I0066",
+        "msg_en": "Get product fail",
+        "msg_chi": "Get product fail",
+        "msg_remark": "E0066"
+    },
+    "I0067": {
+        "errCode": "I0067",
+        "msg_en": "Update customer user fail",
+        "msg_chi": "Update customer user fail",
+        "msg_remark": "E0067"
+    },
+    "I0068": {
+        "errCode": "I0068",
+        "msg_en": "Get customer user fail",
+        "msg_chi": "Get customer user fail",
+        "msg_remark": "E0068"
+    },
+    "I0069": {
+        "errCode": "I0069",
+        "msg_en": "Get pharmacy comment fail",
+        "msg_chi": "Get pharmacy comment fail",
+        "msg_remark": "E0069"
+    },
+    "I0070": {
+        "errCode": "I0070",
+        "msg_en": "Update pharmacy comment fail",
+        "msg_chi": "Update pharmacy comment fail",
+        "msg_remark": "E0070"
+    },
+    "I0071": {
+        "errCode": "I0071",
+        "msg_en": "Get pharmacy comment fail",
+        "msg_chi": "Get pharmacy comment fail",
+        "msg_remark": "E0071"
+    },
+    "I0072": {
+        "errCode": "I0072",
+        "msg_en": "Get customer user fail",
+        "msg_chi": "Get customer userfail",
+        "msg_remark": "E0072"
+    },
+    "I0073": {
+        "errCode": "I0073",
+        "msg_en": "Repeat bookmark pharmacy id",
+        "msg_chi": "Repeat bookmark pharmacy id",
+        "msg_remark": "E0073"
+    },
+    "I0074": {
+        "errCode": "I0074",
+        "msg_en": "Update pharmacy id fail",
+        "msg_chi": "Update pharmacy id fail",
+        "msg_remark": "E0074"
+    },
+    "I0075": {
+        "errCode": "I0075",
+        "msg_en": "Get customer user fail",
+        "msg_chi": "Get customer userfail",
+        "msg_remark": "E0075"
+    },
+    "I0076": {
+        "errCode": "I0076",
+        "msg_en": "Get pharmacy fail",
+        "msg_chi": "Get pharmacy fail",
+        "msg_remark": "E0076"
+    },
+    "I0077": {
+        "errCode": "I0077",
+        "msg_en": "Pharmacy null",
+        "msg_chi": "Pharmacy null",
+        "msg_remark": "E0077"
+    },
+    "I0078": {
+        "errCode": "I0078",
+        "msg_en": "Get product fail",
+        "msg_chi": "Get product fail",
+        "msg_remark": "E0078"
+    },
+    "I0079": {
+        "errCode": "I0079",
+        "msg_en": "Create product fail",
+        "msg_chi": "Create product fail",
+        "msg_remark": "I0079"
+    },
+    "I0080": {
+        "errCode": "I0080",
+        "msg_en": "Get pharmacy fail",
+        "msg_chi": "Get pharmacy fail",
+        "msg_remark": "E0080"
+    },
+    "I0081": {
+        "errCode": "I0081",
+        "msg_en": "Pharmacy null",
+        "msg_chi": "Pharmacy null",
+        "msg_remark": "E0081"
+    },
+    "I0082": {
+        "errCode": "I0082",
+        "msg_en": "Get product fail",
+        "msg_chi": "Get product fail",
+        "msg_remark": "E0082"
+    },
+    "I0083": {
+        "errCode": "I0083",
+        "msg_en": "Update pharmacy category fail",
+        "msg_chi": "Update pharmacy category fail",
+        "msg_remark": "E0083"
+    },
+    "I0084": {
+        "errCode": "I0084",
+        "msg_en": "Update pharmacy name_en fail",
+        "msg_chi": "Update pharmacy name_en fail",
+        "msg_remark": "E0084"
+    },
+    "I0085": {
+        "errCode": "I0085",
+        "msg_en": "Update pharmacy name_cn fail",
+        "msg_chi": "Update pharmacy name_cn fail",
+        "msg_remark": "E0085"
+    },
+    "I0086": {
+        "errCode": "I0086",
+        "msg_en": "Update pharmacy address_en fail",
+        "msg_chi": "Update pharmacy address_en fail",
+        "msg_remark": "E0086"
+    },
+    "I0087": {
+        "errCode": "I0087",
+        "msg_en": "Update pharmacy address_cn fail",
+        "msg_chi": "Update pharmacy address_cn fail",
+        "msg_remark": "E0087"
+    },
+    "I0088": {
+        "errCode": "I0088",
+        "msg_en": "Update pharmacy description_en fail",
+        "msg_chi": "Update pharmacy description_en fail",
+        "msg_remark": "E0088"
+    },
+    "I0089": {
+        "errCode": "I0089",
+        "msg_en": "Update pharmacy description_cn fail",
+        "msg_chi": "Update pharmacy description_cn fail",
+        "msg_remark": "E0089"
+    },
+    "I0090": {
+        "errCode": "I0090",
+        "msg_en": "Update pharmacy business_time fail",
+        "msg_chi": "Update pharmacy business_time fail",
+        "msg_remark": "E0090"
+    },
+    "I0091": {
+        "errCode": "I0091",
+        "msg_en": "Update pharmacy contact fail",
+        "msg_chi": "Update pharmacy contact fail",
+        "msg_remark": "E0091"
+    },
+    "I0092": {
+        "errCode": "I0092",
+        "msg_en": "Update pharmacy image fail",
+        "msg_chi": "Update pharmacy image fail",
+        "msg_remark": "E0092"
+    },
+    "I0093": {
+        "errCode": "I0093",
+        "msg_en": "Get pharmacy fail",
+        "msg_chi": "Get pharmacy fail",
+        "msg_remark": "E0093"
+    },
+    "I0094": {
+        "errCode": "I0094",
+        "msg_en": "Update title_en fail",
+        "msg_chi": "Update title_en fail",
+        "msg_remark": "E0094"
+    },
+    "I0095": {
+        "errCode": "I0095",
+        "msg_en": "Update title_cn fail",
+        "msg_chi": "Update title_cn fail",
+        "msg_remark": "E0095"
+    },
+    "I0096": {
+        "errCode": "I0096",
+        "msg_en": "Update description_en fail",
+        "msg_chi": "Update description_en fail",
+        "msg_remark": "E0096"
+    },
+    "I0097": {
+        "errCode": "I0097",
+        "msg_en": "Update description_cn fail",
+        "msg_chi": "Update description_cn fail",
+        "msg_remark": "E0097"
+    },
+    "I0098": {
+        "errCode": "I0098",
+        "msg_en": "Update price fail",
+        "msg_chi": "Update price fail",
+        "msg_remark": "E0098"
+    },
+    "I0099": {
+        "errCode": "I0099",
+        "msg_en": "Update image fail",
+        "msg_chi": "Update image fail",
+        "msg_remark": "E0099"
+    },
+    "I0100": {
+        "errCode": "I0100",
+        "msg_en": "Get product fail",
+        "msg_chi": "Get product fail",
+        "msg_remark": "E0100"
+    },
+    "I0101": {
+        "errCode": "I0101",
+        "msg_en": "Get order fail",
+        "msg_chi": "Get order fail",
+        "msg_remark": "E0101"
+    },
+    "I0102": {
+        "errCode": "I0102",
+        "msg_en": "Get product fail",
+        "msg_chi": "Get product fail",
+        "msg_remark": "E0102"
+    },
+    "I0103": {
+        "errCode": "I0103",
+        "msg_en": "Get product fail",
+        "msg_chi": "Get product fail",
+        "msg_remark": "E0103"
+    },
+    "I0104": {
+        "errCode": "I0104",
+        "msg_en": "Get pharmacy fail",
+        "msg_chi": "Get pharmacy fail",
+        "msg_remark": "E0104"
+    },
+    "I0105": {
+        "errCode": "I0105",
+        "msg_en": "Update pharmacy fail",
+        "msg_chi": "Update pharmacy fail",
+        "msg_remark": "E0105"
+    },
+    "I0106": {
+        "errCode": "I0106",
+        "msg_en": "Get pharmacy fail",
+        "msg_chi": "Get pharmacy fail",
+        "msg_remark": "E0106"
+    },
+    "I0107": {
+        "errCode": "I0107",
+        "msg_en": "Pharmacy null",
+        "msg_chi": "Pharmacy null",
+        "msg_remark": "E0107"
+    },
+    "I0108": {
+        "errCode": "I0108",
+        "msg_en": "Get product fail",
+        "msg_chi": "Get product fail",
+        "msg_remark": "I0108"
     }
 }

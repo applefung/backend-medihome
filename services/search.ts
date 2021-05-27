@@ -7,10 +7,12 @@ import category from '../models/category';
 import pharmacy from '../models/pharmacy';
 import { Request } from "express";
 import { Op } from "Sequelize";
+import moment from 'moment';
 const Sequelize = require('sequelize');
 
 const searchService = async (req:Request) => {
     const { searchKey }:any = req.query;
+    const today = moment().format("YYYY-MM-DD HH:mm:ss");
     const lowerCaseSearchKey = searchKey.toLowerCase();
 
     // found product
@@ -35,7 +37,7 @@ const searchService = async (req:Request) => {
             }
         ],
     }).catch((error: Error) => {
-        logger.error(JSON.stringify(_.cloneDeep(internalErrorCode['I0012'])), error);
+        logger.error(today, JSON.stringify(_.cloneDeep(internalErrorCode['I0012'])), error);
         throw _.cloneDeep(externalErrorCode['E0012']);
     });
 
@@ -50,13 +52,42 @@ const searchService = async (req:Request) => {
             ]
         },
     }).catch((error: Error) => {
-        logger.error(JSON.stringify(_.cloneDeep(internalErrorCode['I0013'])), error);
+        logger.error(today, JSON.stringify(_.cloneDeep(internalErrorCode['I0013'])), error);
         throw _.cloneDeep(externalErrorCode['E0013']);
     });
 
+    let returnResult = _.cloneDeep(pharmacyResult);
+
+    for(let i=0; i<pharmacyResult.length; i++){
+        const productIds = pharmacyResult[i].dataValues.product_ids;
+        const productIdArray = _.split(productIds, ',');
+        const tempProductArray = [];
+        for(let k=0; k<productIdArray.length; k++){
+            category.hasMany(product, {foreignKey: 'category_id'});
+            product.belongsTo(category, {foreignKey: 'category_id'});
+
+            const productResult = await product.findAll({
+                where: {
+                    product_id: productIdArray[k]
+                },
+                include:
+                [
+                    {
+                        model: category,
+                    }
+                ],
+            }).catch((error:Error) => {
+                logger.error(today, JSON.stringify(_.cloneDeep(internalErrorCode['I0007'])), error);
+                throw _.cloneDeep(externalErrorCode['E0007']);
+            });
+            tempProductArray.push(productResult[0].dataValues);
+        }
+        returnResult[i].dataValues['products'] = tempProductArray;
+    }
+
     const result = {
         product: productResult,
-        pharmacy: pharmacyResult,
+        pharmacy: returnResult,
     };
 
     return {

@@ -82,5 +82,575 @@
         "msg_en": "Internal Error",
         "msg_chi": "內部錯誤",
         "msg_remark": "I0012"
+    },
+    "E0014": {
+        "errCode": "E0014",
+        "msg_en": "No customer user",
+        "msg_chi": "用戶不存在",
+        "msg_remark": "I0014"
+    },
+    "E0015": {
+        "errCode": "E0015",
+        "msg_en": "Email or Password Wrong",
+        "msg_chi": "電郵或密碼錯誤",
+        "msg_remark": "I0015"
+    },
+    "E0016": {
+        "errCode": "E0016",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0016"
+    },
+    "E0017": {
+        "errCode": "E0017",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0017"
+    },
+    "E0018": {
+        "errCode": "E0018",
+        "msg_en": "Email sent error",
+        "msg_chi": "電郵發送失敗",
+        "msg_remark": "I0018"
+    },
+    "E0019": {
+        "errCode": "E0019",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0019"
+    },
+    "E0020": {
+        "errCode": "E0020",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0020"
+    },
+    "E0021": {
+        "errCode": "E0021",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0021"
+    },
+    "E0022": {
+        "errCode": "E0022",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0022"
+    },
+    "E0023": {
+        "errCode": "E0023",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0022"
+    },
+    "E0024": {
+        "errCode": "E0024",
+        "msg_en": "Verification Code not match",
+        "msg_chi": "驗證碼錯誤",
+        "msg_remark": "I0024"
+    },
+    "E0025": {
+        "errCode": "E0025",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0025"
+    },
+    "E0026": {
+        "errCode": "E0026",
+        "msg_en": "Customer User Not Exist",
+        "msg_chi": "用户不存在",
+        "msg_remark": "I0026"
+    },
+    "E0027": {
+        "errCode": "E0027",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0027"
+    },
+    "E0028": {
+        "errCode": "E0028",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0028"
+    },
+    "E0029": {
+        "errCode": "E0029",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0029"
+    },
+    "E0030": {
+        "errCode": "E0030",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0030"
+    },
+    "E0031": {
+        "errCode": "E0031",
+        "msg_en": "Verification Code not match",
+        "msg_chi": "驗證碼錯誤",
+        "msg_remark": "I0031"
+    },
+    "E0032": {
+        "errCode": "E0032",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0032"
+    },
+    "E0033": {
+        "errCode": "E0033",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0033"
+    },
+    "E0034": {
+        "errCode": "E0034",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0034"
+    },
+    "E0035": {
+        "errCode": "E0035",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0035"
+    },
+    "E0036": {
+        "errCode": "E0036",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0036"
+    },
+    "E0037": {
+        "errCode": "E0037",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0037"
+    },
+    "E0038": {
+        "errCode": "E0038",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0038"
+    },
+    "E0039": {
+        "errCode": "E0039",
+        "msg_en": "Token not exist",
+        "msg_chi": "令牌不存在",
+        "msg_remark": "I0039"
+    },
+    "E0040": {
+        "errCode": "E0040",
+        "msg_en": "Token expired",
+        "msg_chi": "令牌過期",
+        "msg_remark": "I0040"
+    },
+    "E0041": {
+        "errCode": "E0041",
+        "msg_en": "Token customer user not exist",
+        "msg_chi": "令牌用戶不存在",
+        "msg_remark": "I0041"
+    },
+    "E0042": {
+        "errCode": "E0042",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0042"
+    },
+    "E0043": {
+        "errCode": "E0043",
+        "msg_en": "Customer user nt exist",
+        "msg_chi": "用戶不存在",
+        "msg_remark": "I0043"
+    },
+    "E0044": {
+        "errCode": "E0044",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0044"
+    },
+    "E0045": {
+        "errCode": "E0045",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0045"
+    },
+    "E0046": {
+        "errCode": "E0046",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0046"
+    },
+    "E0047": {
+        "errCode": "E0047",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0047"
+    },
+    "E0048": {
+        "errCode": "E0048",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0048"
+    },
+    "E0049": {
+        "errCode": "E0049",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0049"
+    },
+    "E0050": {
+        "errCode": "E0050",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0050"
+    },
+    "E0051": {
+        "errCode": "E0051",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0051"
+    },
+    "E0052": {
+        "errCode": "E0052",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0052"
+    },
+    "E0053": {
+        "errCode": "E0053",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0053"
+    },
+    "E0054": {
+        "errCode": "E0054",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0054"
+    },
+    "E0055": {
+        "errCode": "E0055",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0055"
+    },
+    "E0056": {
+        "errCode": "E0056",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0056"
+    },
+    "E0057": {
+        "errCode": "E0057",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0057"
+    },
+    "E0058": {
+        "errCode": "E0058",
+        "msg_en": "Pharmacy User Not Exist",
+        "msg_chi": "用戶不存在",
+        "msg_remark": "I0058"
+    },
+    "E0059": {
+        "errCode": "E0059",
+        "msg_en": "Wrong Email or Password",
+        "msg_chi": "電郵或密碼錯誤",
+        "msg_remark": "I0059"
+    },
+    "E0060": {
+        "errCode": "E0060",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0060"
+    },
+    "E0061": {
+        "errCode": "E0061",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0061"
+    },
+    "E0062": {
+        "errCode": "E0062",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0062"
+    },
+    "E0063": {
+        "errCode": "E0063",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0063"
+    },
+    "E0064": {
+        "errCode": "E0064",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0064"
+    },
+    "E0065": {
+        "errCode": "E0065",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0065"
+    },
+    "E0066": {
+        "errCode": "E0066",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0066"
+    },
+    "E0067": {
+        "errCode": "E0067",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0067"
+    },
+    "E0068": {
+        "errCode": "E0068",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0068"
+    },
+    "E0069": {
+        "errCode": "E0069",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0069"
+    },
+    "E0070": {
+        "errCode": "E0070",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0070"
+    },
+    "E0071": {
+        "errCode": "E0071",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0071"
+    },
+    "E0072": {
+        "errCode": "E0072",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0072"
+    },
+    "E0073": {
+        "errCode": "E0073",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0073"
+    },
+    "E0074": {
+        "errCode": "E0074",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0074"
+    },
+    "E0075": {
+        "errCode": "E0075",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0075"
+    },
+    "E0076": {
+        "errCode": "E0076",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0076"
+    },
+    "E0077": {
+        "errCode": "E0077",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0077"
+    },
+    "E0078": {
+        "errCode": "E0078",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0078"
+    },
+    "E0079": {
+        "errCode": "E0079",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0079"
+    },
+    "E0080": {
+        "errCode": "E0080",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0080"
+    },
+    "E0081": {
+        "errCode": "E0081",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0081"
+    },
+    "E0082": {
+        "errCode": "E0082",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0082"
+    },
+    "E0083": {
+        "errCode": "E0083",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0083"
+    },
+    "E0084": {
+        "errCode": "E0084",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0084"
+    },
+    "E0085": {
+        "errCode": "E0085",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0085"
+    },
+    "E0086": {
+        "errCode": "E0086",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0086"
+    },
+    "E0087": {
+        "errCode": "E0082",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0087"
+    },
+    "E0088": {
+        "errCode": "E0088",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0088"
+    },
+    "E0089": {
+        "errCode": "E0089",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0089"
+    },
+    "E0090": {
+        "errCode": "E0090",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0090"
+    },
+    "E0091": {
+        "errCode": "E0091",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0091"
+    },
+    "E0092": {
+        "errCode": "E0092",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0092"
+    },
+    "E0093": {
+        "errCode": "E0093",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0093"
+    },
+    "E0094": {
+        "errCode": "E0094",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0094"
+    },
+    "E0095": {
+        "errCode": "E0095",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0095"
+    },
+    "E0096": {
+        "errCode": "E0096",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0096"
+    },
+    "E0097": {
+        "errCode": "E0097",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0097"
+    },
+    "E0098": {
+        "errCode": "E0098",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0098"
+    },
+    "E0099": {
+        "errCode": "E0093",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0099"
+    },
+    "E0100": {
+        "errCode": "E0100",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0100"
+    },
+    "E0101": {
+        "errCode": "E0101",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0101"
+    },
+    "E0102": {
+        "errCode": "E0102",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0102"
+    },
+    "E0103": {
+        "errCode": "E0103",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0103"
+    },
+    "E0104": {
+        "errCode": "E0104",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0104"
+    },
+    "E0105": {
+        "errCode": "E0105",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0105"
+    },
+    "E0106": {
+        "errCode": "E0106",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0106"
+    },
+    "E0107": {
+        "errCode": "E0107",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0107"
+    },
+    "E0108": {
+        "errCode": "E0108",
+        "msg_en": "Internal Error",
+        "msg_chi": "內部錯誤",
+        "msg_remark": "I0108"
     }
 }

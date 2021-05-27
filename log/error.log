@@ -38,3 +38,350 @@
 {"name":"SequelizeDatabaseError","parent":{"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'lower(product.title_en)' in 'where clause'","sql":"SELECT `product`.`product_id`, `product`.`category_id`, `product`.`title_en`, `product`.`title_cn`, `product`.`description_en`, `product`.`description_cn`, `product`.`price`, `product`.`image`, `product`.`tag`, `category`.`category_id` AS `category.category_id`, `category`.`category_en` AS `category.category_en`, `category`.`category_cn` AS `category.category_cn`, `category`.`image` AS `category.image` FROM `product` AS `product` LEFT OUTER JOIN `category` AS `category` ON `product`.`category_id` = `category`.`category_id` WHERE (`lower(product`.`title_en)` LIKE '%abc%' OR `product`.`title_cn` LIKE '%abc%' OR `product`.`description_en` LIKE '%abc%' OR `product`.`description_cn` LIKE '%abc%' OR `category`.`category_en` LIKE '%abc%' OR `category`.`category_cn` LIKE '%abc%');"},"original":{"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'lower(product.title_en)' in 'where clause'","sql":"SELECT `product`.`product_id`, `product`.`category_id`, `product`.`title_en`, `product`.`title_cn`, `product`.`description_en`, `product`.`description_cn`, `product`.`price`, `product`.`image`, `product`.`tag`, `category`.`category_id` AS `category.category_id`, `category`.`category_en` AS `category.category_en`, `category`.`category_cn` AS `category.category_cn`, `category`.`image` AS `category.image` FROM `product` AS `product` LEFT OUTER JOIN `category` AS `category` ON `product`.`category_id` = `category`.`category_id` WHERE (`lower(product`.`title_en)` LIKE '%abc%' OR `product`.`title_cn` LIKE '%abc%' OR `product`.`description_en` LIKE '%abc%' OR `product`.`description_cn` LIKE '%abc%' OR `category`.`category_en` LIKE '%abc%' OR `category`.`category_cn` LIKE '%abc%');"},"sql":"SELECT `product`.`product_id`, `product`.`category_id`, `product`.`title_en`, `product`.`title_cn`, `product`.`description_en`, `product`.`description_cn`, `product`.`price`, `product`.`image`, `product`.`tag`, `category`.`category_id` AS `category.category_id`, `category`.`category_en` AS `category.category_en`, `category`.`category_cn` AS `category.category_cn`, `category`.`image` AS `category.image` FROM `product` AS `product` LEFT OUTER JOIN `category` AS `category` ON `product`.`category_id` = `category`.`category_id` WHERE (`lower(product`.`title_en)` LIKE '%abc%' OR `product`.`title_cn` LIKE '%abc%' OR `product`.`description_en` LIKE '%abc%' OR `product`.`description_cn` LIKE '%abc%' OR `category`.`category_en` LIKE '%abc%' OR `category`.`category_cn` LIKE '%abc%');","level":"error","message":"{\"errCode\":\"I0012\",\"msg_en\":\"Search product fail\",\"msg_chi\":\"Search product fail\",\"msg_remark\":\"E0012\"} Unknown column 'lower(product.title_en)' in 'where clause'","stack":"SequelizeDatabaseError: Unknown column 'lower(product.title_en)' in 'where clause'\n    at Query.formatError (C:\\Users\\80411\\Desktop\\A++\\Year4 Spring Semster\\COMP4521\\backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:265:16)\n    at Query.run (C:\\Users\\80411\\Desktop\\A++\\Year4 Spring Semster\\COMP4521\\backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:77:18)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
 {"name":"SequelizeDatabaseError","parent":{"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]() OR `product`.`title_cn` LIKE '%abc%' OR `product`.`description' at line 1","sql":"SELECT `product`.`product_id`, `product`.`category_id`, `product`.`title_en`, `product`.`title_cn`, `product`.`description_en`, `product`.`description_cn`, `product`.`price`, `product`.`image`, `product`.`tag`, `category`.`category_id` AS `category.category_id`, `category`.`category_en` AS `category.category_en`, `category`.`category_cn` AS `category.category_cn`, `category`.`image` AS `category.image` FROM `product` AS `product` LEFT OUTER JOIN `category` AS `category` ON `product`.`category_id` = `category`.`category_id` WHERE ([object Object]() OR `product`.`title_cn` LIKE '%abc%' OR `product`.`description_en` LIKE '%abc%' OR `product`.`description_cn` LIKE '%abc%' OR `category`.`category_en` LIKE '%abc%' OR `category`.`category_cn` LIKE '%abc%');"},"original":{"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]() OR `product`.`title_cn` LIKE '%abc%' OR `product`.`description' at line 1","sql":"SELECT `product`.`product_id`, `product`.`category_id`, `product`.`title_en`, `product`.`title_cn`, `product`.`description_en`, `product`.`description_cn`, `product`.`price`, `product`.`image`, `product`.`tag`, `category`.`category_id` AS `category.category_id`, `category`.`category_en` AS `category.category_en`, `category`.`category_cn` AS `category.category_cn`, `category`.`image` AS `category.image` FROM `product` AS `product` LEFT OUTER JOIN `category` AS `category` ON `product`.`category_id` = `category`.`category_id` WHERE ([object Object]() OR `product`.`title_cn` LIKE '%abc%' OR `product`.`description_en` LIKE '%abc%' OR `product`.`description_cn` LIKE '%abc%' OR `category`.`category_en` LIKE '%abc%' OR `category`.`category_cn` LIKE '%abc%');"},"sql":"SELECT `product`.`product_id`, `product`.`category_id`, `product`.`title_en`, `product`.`title_cn`, `product`.`description_en`, `product`.`description_cn`, `product`.`price`, `product`.`image`, `product`.`tag`, `category`.`category_id` AS `category.category_id`, `category`.`category_en` AS `category.category_en`, `category`.`category_cn` AS `category.category_cn`, `category`.`image` AS `category.image` FROM `product` AS `product` LEFT OUTER JOIN `category` AS `category` ON `product`.`category_id` = `category`.`category_id` WHERE ([object Object]() OR `product`.`title_cn` LIKE '%abc%' OR `product`.`description_en` LIKE '%abc%' OR `product`.`description_cn` LIKE '%abc%' OR `category`.`category_en` LIKE '%abc%' OR `category`.`category_cn` LIKE '%abc%');","level":"error","message":"{\"errCode\":\"I0012\",\"msg_en\":\"Search product fail\",\"msg_chi\":\"Search product fail\",\"msg_remark\":\"E0012\"} You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]() OR `product`.`title_cn` LIKE '%abc%' OR `product`.`description' at line 1","stack":"SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]() OR `product`.`title_cn` LIKE '%abc%' OR `product`.`description' at line 1\n    at Query.formatError (C:\\Users\\80411\\Desktop\\A++\\Year4 Spring Semster\\COMP4521\\backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:265:16)\n    at Query.run (C:\\Users\\80411\\Desktop\\A++\\Year4 Spring Semster\\COMP4521\\backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:77:18)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
 {"name":"SequelizeDatabaseError","parent":{"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]() OR `product`.`title_cn` LIKE '%abc%' OR `product`.`description' at line 1","sql":"SELECT `product`.`product_id`, `product`.`category_id`, `product`.`title_en`, `product`.`title_cn`, `product`.`description_en`, `product`.`description_cn`, `product`.`price`, `product`.`image`, `product`.`tag`, `category`.`category_id` AS `category.category_id`, `category`.`category_en` AS `category.category_en`, `category`.`category_cn` AS `category.category_cn`, `category`.`image` AS `category.image` FROM `product` AS `product` LEFT OUTER JOIN `category` AS `category` ON `product`.`category_id` = `category`.`category_id` WHERE ([object Object]() OR `product`.`title_cn` LIKE '%abc%' OR `product`.`description_en` LIKE '%abc%' OR `product`.`description_cn` LIKE '%abc%' OR `category`.`category_en` LIKE '%abc%' OR `category`.`category_cn` LIKE '%abc%');"},"original":{"code":"ER_PARSE_ERROR","errno":1064,"sqlState":"42000","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]() OR `product`.`title_cn` LIKE '%abc%' OR `product`.`description' at line 1","sql":"SELECT `product`.`product_id`, `product`.`category_id`, `product`.`title_en`, `product`.`title_cn`, `product`.`description_en`, `product`.`description_cn`, `product`.`price`, `product`.`image`, `product`.`tag`, `category`.`category_id` AS `category.category_id`, `category`.`category_en` AS `category.category_en`, `category`.`category_cn` AS `category.category_cn`, `category`.`image` AS `category.image` FROM `product` AS `product` LEFT OUTER JOIN `category` AS `category` ON `product`.`category_id` = `category`.`category_id` WHERE ([object Object]() OR `product`.`title_cn` LIKE '%abc%' OR `product`.`description_en` LIKE '%abc%' OR `product`.`description_cn` LIKE '%abc%' OR `category`.`category_en` LIKE '%abc%' OR `category`.`category_cn` LIKE '%abc%');"},"sql":"SELECT `product`.`product_id`, `product`.`category_id`, `product`.`title_en`, `product`.`title_cn`, `product`.`description_en`, `product`.`description_cn`, `product`.`price`, `product`.`image`, `product`.`tag`, `category`.`category_id` AS `category.category_id`, `category`.`category_en` AS `category.category_en`, `category`.`category_cn` AS `category.category_cn`, `category`.`image` AS `category.image` FROM `product` AS `product` LEFT OUTER JOIN `category` AS `category` ON `product`.`category_id` = `category`.`category_id` WHERE ([object Object]() OR `product`.`title_cn` LIKE '%abc%' OR `product`.`description_en` LIKE '%abc%' OR `product`.`description_cn` LIKE '%abc%' OR `category`.`category_en` LIKE '%abc%' OR `category`.`category_cn` LIKE '%abc%');","level":"error","message":"{\"errCode\":\"I0012\",\"msg_en\":\"Search product fail\",\"msg_chi\":\"Search product fail\",\"msg_remark\":\"E0012\"} You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]() OR `product`.`title_cn` LIKE '%abc%' OR `product`.`description' at line 1","stack":"SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]() OR `product`.`title_cn` LIKE '%abc%' OR `product`.`description' at line 1\n    at Query.formatError (C:\\Users\\80411\\Desktop\\A++\\Year4 Spring Semster\\COMP4521\\backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:265:16)\n    at Query.run (C:\\Users\\80411\\Desktop\\A++\\Year4 Spring Semster\\COMP4521\\backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:77:18)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+{"message":{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010"},"level":"debug"}
+{"message":{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010"},"level":"debug"}
+{"message":{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010"},"level":"debug"}
+{"message":{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010"},"level":"debug"}
+{"message":{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010"},"level":"debug"}
+{"message":{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010"},"level":"debug"}
+{"message":{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010"},"level":"debug"}
+{"message":{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010"},"level":"debug"}
+{"message":{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010"},"level":"debug"}
+{"message":{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010"},"level":"debug"}
+{"message":{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010"},"level":"debug"}
+{"message":{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010"},"level":"debug"}
+{"message":{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010"},"level":"debug"}
+{"message":{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010"},"level":"debug"}
+{"message":{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010"},"level":"debug"}
+{"message":{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010"},"level":"debug"}
+{"message":{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010"},"level":"debug"}
+{"message":{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010"},"level":"debug"}
+{"message":{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010"},"level":"debug"}
+{"message":{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010"},"level":"debug"}
+{"message":{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010"},"level":"debug"}
+{"message":{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010"},"level":"debug"}
+{"message":{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010"},"level":"debug"}
+{"message":{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010"},"level":"debug"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-19 08:40:46"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-19 08:40:59"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-19 08:41:14"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-19 13:04:44"}
+{"level":"error","message":"2021-05-19 14:16:50"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-19 14:58:38"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-19 15:56:10"}
+{"level":"error","message":"2021-05-19 17:48:37"}
+{"level":"error","message":"2021-05-19 17:49:39"}
+{"level":"error","message":"2021-05-19 17:50:03"}
+{"level":"error","message":"2021-05-19 17:50:50"}
+{"level":"error","message":"2021-05-19 17:51:25"}
+{"level":"error","message":"2021-05-19 20:34:03"}
+{"level":"error","message":"2021-05-19 20:35:13"}
+{"level":"error","message":"2021-05-19 20:36:06"}
+{"level":"error","message":"2021-05-19 22:43:53"}
+{"level":"error","message":"2021-05-19 22:43:59"}
+{"level":"error","message":"2021-05-19 22:44:00"}
+{"level":"error","message":"2021-05-19 22:44:10"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-20 14:26:35"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-20 14:26:35"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-20 14:26:35"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-20 14:27:09"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-20 14:27:09"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-20 14:27:26"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-20 14:27:26"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-20 14:27:39"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-20 14:27:39"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-20 14:28:14"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-20 14:28:14"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-20 14:29:31"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-20 14:29:31"}
+{"level":"error","message":"2021-05-20 20:44:29"}
+{"level":"error","message":"2021-05-20 21:04:54"}
+{"level":"error","message":"2021-05-20 22:43:03"}
+{"level":"error","message":"2021-05-20 22:43:03"}
+{"level":"error","message":"2021-05-20 22:43:03"}
+{"level":"error","message":"2021-05-21 00:19:37"}
+{"level":"error","message":"2021-05-21 00:19:37"}
+{"level":"error","message":"2021-05-21 00:19:38"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 09:11:24"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 09:14:22"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 09:15:30"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 09:15:30"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 09:15:38"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 09:17:05"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 09:18:02"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 09:18:02"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 09:18:02"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 09:18:02"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 09:18:03"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 09:18:03"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 09:18:03"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 09:18:03"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 09:18:03"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 09:20:10"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 09:22:13"}
+{"level":"error","message":"2021-05-21 09:45:44"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 10:00:18"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 10:03:50"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 10:06:33"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 10:07:28"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 10:09:06"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 10:12:25"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 10:13:38"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 10:15:59"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 10:17:31"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 11:13:23"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 11:13:37"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 11:13:38"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 11:13:39"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 11:13:41"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 11:13:41"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 11:13:42"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 11:13:42"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 11:13:43"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 11:14:03"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 11:14:09"}
+{"level":"error","message":"2021-05-21 11:54:28"}
+{"level":"error","message":"2021-05-21 11:55:28"}
+{"level":"error","message":"2021-05-21 12:20:49"}
+{"level":"error","message":"2021-05-21 12:22:13"}
+{"level":"error","message":"2021-05-21 12:23:07"}
+{"level":"error","message":"2021-05-21 12:23:48"}
+{"level":"error","message":"2021-05-21 12:23:53"}
+{"level":"error","message":"2021-05-21 12:25:00"}
+{"level":"error","message":"2021-05-21 12:26:03"}
+{"level":"error","message":"2021-05-21 14:43:32"}
+{"level":"error","message":"2021-05-21 14:44:53"}
+{"level":"error","message":"2021-05-21 14:45:21"}
+{"level":"error","message":"2021-05-21 14:46:42"}
+{"level":"error","message":"2021-05-21 14:48:16"}
+{"level":"error","message":"2021-05-21 14:48:18"}
+{"level":"error","message":"2021-05-21 14:48:18"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 15:24:33"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 15:24:42"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 15:25:10"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 15:25:10"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 15:25:11"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 15:25:12"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 15:25:15"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 15:25:57"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-21 15:27:05"}
+{"level":"error","message":"2021-05-21 15:27:58"}
+{"level":"error","message":"2021-05-21 22:51:17"}
+{"level":"error","message":"2021-05-21 22:52:12"}
+{"level":"error","message":"2021-05-21 22:52:46"}
+{"level":"error","message":"2021-05-21 22:53:31"}
+{"level":"error","message":"2021-05-21 22:53:32"}
+{"level":"error","message":"2021-05-21 22:54:04"}
+{"level":"error","message":"2021-05-21 22:54:06"}
+{"level":"error","message":"2021-05-21 23:24:49"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-22 09:55:22"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-22 09:55:36"}
+{"level":"error","message":"2021-05-22 12:16:16"}
+{"level":"error","message":"2021-05-22 13:47:26"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-22 14:48:58"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-22 14:49:26"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-22 14:50:05"}
+{"level":"error","message":"2021-05-22 14:51:13"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-22 14:51:30"}
+{"level":"error","message":"2021-05-22 14:53:08"}
+{"level":"error","message":"2021-05-22 14:56:00"}
+{"level":"error","message":"2021-05-22 14:56:38"}
+{"level":"error","message":"2021-05-22 14:57:32"}
+{"level":"error","message":"2021-05-22 14:58:28"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-22 15:16:01"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-22 15:16:25"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-22 17:33:00"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-22 17:33:43"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-22 17:33:44"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-22 17:34:35"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-22 17:35:46"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-22 17:37:05"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-22 17:37:07"}
+{"level":"error","message":"2021-05-22 19:02:53"}
+{"level":"error","message":"2021-05-22 19:03:28"}
+{"level":"error","message":"2021-05-22 19:05:30"}
+{"level":"error","message":"2021-05-22 19:06:35"}
+{"level":"error","message":"2021-05-22 19:06:44"}
+{"level":"error","message":"2021-05-22 19:06:47"}
+{"level":"error","message":"2021-05-22 19:07:15"}
+{"level":"error","message":"2021-05-22 19:22:56"}
+{"level":"error","message":"2021-05-22 19:25:28"}
+{"level":"error","message":"2021-05-22 19:25:31"}
+{"level":"error","message":"2021-05-22 19:26:16"}
+{"level":"error","message":"2021-05-22 19:26:46"}
+{"level":"error","message":"2021-05-22 19:27:06"}
+{"level":"error","message":"2021-05-22 19:27:08"}
+{"level":"error","message":"2021-05-22 19:27:11"}
+{"level":"error","message":"2021-05-22 19:29:08"}
+{"level":"error","message":"2021-05-22 19:31:52"}
+{"level":"error","message":"2021-05-22 20:10:48"}
+{"level":"error","message":"2021-05-22 20:11:02"}
+{"level":"error","message":"2021-05-22 20:11:17"}
+{"level":"error","message":"2021-05-22 20:12:58"}
+{"level":"error","message":"2021-05-22 20:14:15"}
+{"level":"error","message":"2021-05-22 20:15:48"}
+{"level":"error","message":"2021-05-22 20:38:46"}
+{"level":"error","message":"2021-05-22 21:01:06"}
+{"level":"error","message":"2021-05-23 15:21:11"}
+{"level":"error","message":"2021-05-23 15:21:35"}
+{"level":"error","message":"2021-05-23 15:26:18"}
+{"level":"error","message":"2021-05-23 15:28:11"}
+{"level":"error","message":"2021-05-23 15:29:28"}
+{"level":"error","message":"2021-05-23 15:30:15"}
+{"level":"error","message":"2021-05-23 15:31:37"}
+{"level":"error","message":"2021-05-23 15:36:39"}
+{"level":"error","message":"2021-05-23 15:37:48"}
+{"level":"error","message":"2021-05-23 15:38:37"}
+{"level":"error","message":"2021-05-23 15:39:09"}
+{"level":"error","message":"2021-05-23 15:40:43"}
+{"level":"error","message":"2021-05-23 15:41:18"}
+{"level":"error","message":"2021-05-23 15:42:08"}
+{"level":"error","message":"2021-05-23 15:43:29"}
+{"level":"error","message":"2021-05-23 15:45:34"}
+{"level":"error","message":"2021-05-23 15:47:14"}
+{"level":"error","message":"2021-05-23 15:47:55"}
+{"level":"error","message":"2021-05-23 15:48:36"}
+{"level":"error","message":"2021-05-23 15:49:15"}
+{"level":"error","message":"2021-05-23 15:49:18"}
+{"level":"error","message":"2021-05-23 15:49:22"}
+{"level":"error","message":"2021-05-23 15:49:46"}
+{"level":"error","message":"2021-05-23 17:31:16"}
+{"level":"error","message":"2021-05-23 17:31:16"}
+{"level":"error","message":"2021-05-23 17:31:16"}
+{"level":"error","message":"2021-05-23 17:43:22"}
+{"level":"error","message":"2021-05-23 17:43:22"}
+{"level":"error","message":"2021-05-23 18:03:21"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-23 18:33:35"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-23 18:34:41"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-23 18:50:15"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-23 18:52:18"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-23 18:53:38"}
+{"level":"error","message":"2021-05-23 19:28:50"}
+{"level":"error","message":"2021-05-23 19:28:50"}
+{"level":"error","message":"2021-05-23 19:33:08"}
+{"level":"error","message":"2021-05-23 19:33:08"}
+{"level":"error","message":"2021-05-23 19:34:54"}
+{"level":"error","message":"2021-05-23 19:34:54"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-23 20:33:39"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-23 20:34:01"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-23 20:35:28"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-23 20:40:58"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-23 20:42:13"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-23 20:43:07"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-23 20:44:12"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-23 20:47:23"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-23 20:49:31"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-23 22:05:42"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-23 22:07:44"}
+{"level":"error","message":"2021-05-23 22:08:54"}
+{"level":"error","message":"2021-05-23 22:09:01"}
+{"level":"error","message":"2021-05-23 22:09:43"}
+{"level":"error","message":"2021-05-23 22:09:44"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-23 22:59:07"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-23 23:00:29"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-23 23:03:25"}
+{"level":"error","message":"2021-05-23 23:04:44"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-23 23:42:42"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-23 23:44:37"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-23 23:45:42"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-23 23:47:04"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-23 23:48:08"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-23 23:49:41"}
+{"level":"error","message":"2021-05-23 23:51:05"}
+{"level":"error","message":"2021-05-23 23:51:49"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-24 16:03:52"}
+{"errCode":"I0010","msg_en":"No Permission","msg_chi":"No Permission","msg_remark":"E0010","level":"debug","message":"2021-05-24 16:03:52"}
+{"level":"error","message":"2021-05-24 16:08:35"}
+{"level":"error","message":"2021-05-24 21:40:39"}
+{"level":"error","message":"2021-05-24 21:40:39"}
+{"level":"error","message":"2021-05-24 21:50:33"}
+{"level":"error","message":"2021-05-24 21:50:33"}
+{"level":"error","message":"2021-05-24 21:50:34"}
+{"level":"error","message":"2021-05-24 21:50:34"}
+{"level":"error","message":"2021-05-24 21:50:34"}
+{"level":"error","message":"2021-05-24 21:50:34"}
+{"level":"error","message":"2021-05-24 21:50:34"}
+{"level":"error","message":"2021-05-24 21:50:34"}
+{"level":"error","message":"2021-05-24 21:55:27"}
+{"level":"error","message":"2021-05-24 21:55:28"}
+{"level":"error","message":"2021-05-24 21:55:28"}
+{"level":"error","message":"2021-05-24 21:55:28"}
+{"level":"error","message":"2021-05-24 21:55:28"}
+{"level":"error","message":"2021-05-24 22:13:21"}
+{"level":"error","message":"2021-05-24 22:13:22"}
+{"level":"error","message":"2021-05-24 22:13:22"}
+{"level":"error","message":"2021-05-24 22:13:22"}
+{"level":"error","message":"2021-05-24 22:13:24"}
+{"level":"error","message":"2021-05-24 22:13:24"}
+{"level":"error","message":"2021-05-24 22:15:45"}
+{"level":"error","message":"2021-05-24 22:15:45"}
+{"level":"error","message":"2021-05-24 22:29:13"}
+{"level":"error","message":"2021-05-24 22:29:14"}
+{"level":"error","message":"2021-05-24 22:29:14"}
+{"level":"error","message":"2021-05-24 22:29:14"}
+{"level":"error","message":"2021-05-24 22:29:14"}
+{"level":"error","message":"2021-05-24 22:50:14"}
+{"level":"error","message":"2021-05-24 22:50:15"}
+{"level":"error","message":"2021-05-24 22:50:17"}
+{"level":"error","message":"2021-05-24 22:50:18"}
+{"level":"error","message":"2021-05-24 22:50:18"}
+{"level":"error","message":"2021-05-24 22:50:18"}
+{"level":"error","message":"2021-05-24 22:50:18"}
+{"level":"error","message":"2021-05-24 22:55:41"}
+{"level":"error","message":"2021-05-24 22:55:56"}
+{"level":"error","message":"2021-05-24 22:55:56"}
+{"level":"error","message":"2021-05-24 22:55:56"}
+{"level":"error","message":"2021-05-24 22:55:56"}
+{"level":"error","message":"2021-05-24 22:55:56"}
+{"errno":"ECONNRESET","code":"ECONNECTION","syscall":"read","command":"CONN","level":"error","message":"{\"errCode\":\"I0018\",\"msg_en\":\"Email sent error\",\"msg_chi\":\"Email sent error\",\"msg_remark\":\"E0018\"} read ECONNRESET","stack":"Error: read ECONNRESET\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:205:27)"}
+{"level":"error","message":"2021-05-24 23:07:06"}
+{"level":"error","message":"2021-05-24 23:07:06"}
+{"level":"error","message":"2021-05-24 23:07:07"}
+{"level":"error","message":"2021-05-24 23:07:07"}
+{"level":"error","message":"2021-05-24 23:07:07"}
+{"level":"error","message":"2021-05-25 09:52:28"}
+{"level":"error","message":"2021-05-25 09:52:28"}
+{"level":"error","message":"2021-05-25 09:52:28"}
+{"level":"error","message":"2021-05-25 09:52:29"}
+{"level":"error","message":"2021-05-25 09:52:29"}
+{"level":"error","message":"2021-05-25 09:52:29"}
+{"level":"error","message":"2021-05-25 09:52:29"}
+{"level":"error","message":"2021-05-25 09:52:34"}
+{"level":"error","message":"2021-05-25 09:52:34"}
+{"level":"error","message":"2021-05-25 09:52:34"}
+{"level":"error","message":"2021-05-25 09:52:34"}
+{"level":"error","message":"2021-05-25 09:52:34"}
+{"level":"error","message":"2021-05-25 09:52:35"}
+{"level":"error","message":"2021-05-25 09:52:35"}
+{"level":"error","message":"2021-05-25 09:52:35"}
+{"level":"error","message":"2021-05-25 09:52:35"}
+{"level":"error","message":"2021-05-25 09:52:35"}
+{"level":"error","message":"2021-05-25 09:52:36"}
+{"level":"error","message":"2021-05-25 09:52:36"}
+{"level":"error","message":"2021-05-25 09:52:36"}
+{"level":"error","message":"2021-05-25 09:52:36"}
+{"level":"error","message":"2021-05-25 09:52:36"}
+{"level":"error","message":"2021-05-25 09:53:21"}
+{"level":"error","message":"2021-05-25 09:53:22"}
+{"level":"error","message":"2021-05-25 09:53:22"}
+{"level":"error","message":"2021-05-25 09:53:22"}
+{"level":"error","message":"2021-05-25 09:53:22"}
+{"level":"error","message":"2021-05-25 10:04:39"}
+{"level":"error","message":"2021-05-25 10:04:40"}
+{"level":"error","message":"2021-05-25 10:04:40"}
+{"level":"error","message":"2021-05-25 10:04:40"}
+{"level":"error","message":"2021-05-25 10:04:41"}
+{"level":"error","message":"2021-05-25 10:04:53"}
+{"level":"error","message":"2021-05-25 10:04:54"}
+{"level":"error","message":"2021-05-25 10:04:59"}
+{"level":"error","message":"2021-05-25 10:04:59"}
+{"level":"error","message":"2021-05-25 10:05:00"}
+{"level":"error","message":"2021-05-25 10:05:00"}
+{"level":"error","message":"2021-05-25 10:08:01"}
+{"level":"error","message":"2021-05-25 10:08:01"}
+{"level":"error","message":"2021-05-25 10:08:01"}
+{"level":"error","message":"2021-05-25 10:08:02"}
+{"level":"error","message":"2021-05-25 10:08:02"}
+{"level":"error","message":"2021-05-25 10:08:02"}
+{"level":"error","message":"2021-05-25 10:08:02"}
+{"level":"error","message":"2021-05-25 10:08:02"}

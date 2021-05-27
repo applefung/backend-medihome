@@ -3,7 +3,8 @@ const bodyValidation = (schema: any, body: any) => {
     if(error === undefined){
       return true;
     }
-    else{
+    else{ 
+      console.log('error');
       return false;
     }
 };
